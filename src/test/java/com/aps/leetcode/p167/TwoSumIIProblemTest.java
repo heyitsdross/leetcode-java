@@ -28,7 +28,7 @@ class TwoSumIIProblemTest {
         assertArrayEquals(expected, result);
     }
 
-    public static Stream<Arguments> provideTwoSumInputs() {
+    static Stream<Arguments> provideTwoSumInputs() {
         return Stream.of(
                 Arguments.of(new int[] {2, 7, 11, 15}, 9, new int[] {1, 2}),
                 Arguments.of(new int[] {2, 3, 4}, 6, new int[] {1, 3}),
